@@ -1,0 +1,24 @@
+:root{
+    --bg-image: url('/edificio-oficinas-moderno-vista-angulo-rascacielos-ciudad-singapur-edificio-oficinas-moderno-vista-angulo-rascacielos-ciudad-singapur.jpg');
+    --blue: #002664;
+    --text: white;
+    --red: red;
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: var(--bg-image);
+    color: var(--text);
+  }
+
+a {
+    color: inherit;
+    text-decoration: none ;
+}
