@@ -13,23 +13,23 @@ const menuItems = [
     },
     {
       title: "Servicios",
-      path: "/app/dashboard",
+      path: "/dashboard",
     },
     {
       title: "Limpieza",
-      path: "/app/dashboard/Limpieza",
+      path: "/dashboard/Limpieza",
     },
     {
       title: "Mantenimiento",
-      path: "/app/dashboard/Mantenimiento",
+      path: "/dashboard/Mantenimiento",
     },
     {
       title: "Seguridad Física",
-      path: "/app/dashboard/Seguridad Fisica",
+      path: "/dashboard/SeguridadF",
     },
     {
       title: "Seguridad Electrónca",
-      path: "/app/dashboard/Seguridad Electronica",
+      path: "/dashboard/SeguridadE",
     },
   ]
  } 

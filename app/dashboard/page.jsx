@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Example from '../ui/dashboard/swipeslides/Example'
+
+
+
 
 const Dashboard = () => {
   return (
-    <div> Dashboard </div>
+    <div> 
+       <Example />
+    </div>
   )
 }
 
