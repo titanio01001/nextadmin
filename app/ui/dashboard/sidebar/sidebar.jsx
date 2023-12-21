@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '@/app/ui/dashboard/sidebar/sidebar.module.css';
+import styles from './sidebar.module.css';
 import MenuLink from './menuLink/menuLink';
 import Image from 'next/image';
 

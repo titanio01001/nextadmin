@@ -11,19 +11,22 @@ import "./styles.css";
 const variants = {
   enter: (direction) => {
     return {
-      x: direction > 0 ? 1000 : -1000,
+      x: 0,
+      y:0,
       opacity: 0
     };
   },
   center: {
     zIndex: 1,
     x: 0,
+    y:0,
     opacity: 1
   },
   exit: (direction) => {
     return {
       zIndex: 0,
-      x: direction < 0 ? 1000 : -1000,
+      x: 0, // Keep the X-axis at 0 for centering horizontally
+      y: 0, // Adjust the Y-axis value for vertical movement
       opacity: 0
     };
   }
@@ -65,9 +68,10 @@ export const Example = () => {
           animate="center"
           exit="exit"
           transition={{
-            x: { type: "spring", stiffness: 300, damping: 30 },
+            x: { type: "spring", stiffness: 300, damping: 20 },
             opacity: { duration: 0.2 }
           }}
+          
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
           dragElastic={1}
@@ -82,12 +86,12 @@ export const Example = () => {
           }}
         />
       </AnimatePresence>
-      <div className="next" onClick={() => paginate(1)}>
-      <IoMdArrowDroprightCircle />
-      </div>
-      <div className="prev" onClick={() => paginate(-1)}>
-      <IoMdArrowDropleftCircle />
-      </div>
+      
+   
+      
+      
+     
+      
     </>
   );
 };

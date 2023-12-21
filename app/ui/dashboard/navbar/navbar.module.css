@@ -1,10 +1,16 @@
 .container{
-    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6%;
+    padding-right: 6%;
     border-radius: 10px;
-    background-color: var(--blue);
+    background-color: rgba(0, 38, 100, 0.7);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -1em;
+    font-size: medium;
+
 }
 
 .title{
@@ -21,11 +27,11 @@
 
 .search{
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 10px;
     background-color: whitesmoke;
     opacity: 0.8;
-    padding: 10px;
+    padding: 6px;
     border-radius: 10px;
 }
 
@@ -38,4 +44,10 @@
 .icons{
     display: flex;
     gap: 20px;
+    
 }
+
+.iconprofile {
+    font-size: medium;
+}
+

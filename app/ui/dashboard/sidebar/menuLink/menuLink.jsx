@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react';
-import styles from '@/app/ui/dashboard/sidebar/menuLink/menuLink.module.css';
+import styles from './menuLink.module.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 

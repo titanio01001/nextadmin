@@ -1,14 +1,13 @@
 .container {
     position: flex;
     top: 60px;
-    padding-top: 10px;
-    z-index: 3;
-    height: max-content;
+    z-index: 1;
+    height: 1080px;
     
 }
 
 .list {
-    padding-top: 200px;
+    padding-top: 180px;
     list-style: none;
 }
 
@@ -23,5 +22,5 @@
 #Image {
     z-index: 3;
     position: absolute;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
