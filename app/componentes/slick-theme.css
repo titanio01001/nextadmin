@@ -52,7 +52,7 @@
 .slick-next:before
 {
     
-    font-size: 60px;
+    font-size: xx-large;
     line-height: 1;
 
     
@@ -64,7 +64,7 @@
 
 .slick-prev
 {
-    margin-left: -7%;
+    margin-left: -6%;
     left: -25px;
     z-index: 7;
 }
@@ -89,7 +89,7 @@
 
 .slick-next
 {
-    margin-right: -7%;
+    margin-right: -6%;
     right: -25px;
     z-index: 7;
 }

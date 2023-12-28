@@ -38,7 +38,7 @@ const Sidebar = () => {
   return (
     <div className={styles.container}>
       <div>
-        <Image className="logo" src="/IMAGOTIPO GRUPO EULEN BLANCO.png" width={311} height={116} />
+        <Image className={styles.logo} src="/IMAGOTIPO GRUPO EULEN BLANCO.png" width={311} height={116} />
       </div>
       <ul className={styles.list}>
       {menuItems.map((cat) => (

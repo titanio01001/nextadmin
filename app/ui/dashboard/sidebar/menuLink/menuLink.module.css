@@ -4,8 +4,10 @@
     align-items: center;
     gap: 15px;
     margin: 5%;
+    font-size: medium;
 }
 
 .container:hover {
     text-decoration: underline red 4px;
+    
 }
