@@ -1,15 +1,20 @@
 import React from 'react';
-import Example from '../ui/dashboard/swipeslides/Example'
+import SwipeSlider from '../componentes/SwipeSlider'
 
+const images = [
+  '/security.png',
+  '/rrhh.png',
+  '/facility.png',
+];
 
 
 
 const Dashboard = () => {
   return (
     <div> 
-       <Example />
+      <SwipeSlider items={images}/> 
     </div>
-  )
+  );
 }
 
 export default Dashboard

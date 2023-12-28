@@ -5,6 +5,7 @@ import styles from './navbar.module.css'
 import {  MdSearch } from "react-icons/md"
 import { usePathname } from 'next/navigation';
 import { CgProfile } from "react-icons/cg";
+import { IconContext } from "react-icons";
 const Navbar = () => {
 
   const pathname = usePathname();
@@ -20,7 +21,12 @@ const Navbar = () => {
         </div>
         <div className={styles.cuenta}><h6>Mi Cuenta</h6></div>
         <div className={styles.iconprofile}>
-        <CgProfile />
+        <IconContext.Provider value={{ color: "white", size: "1.5em", className: "global-class-name" }}>
+          <div>
+            <CgProfile />
+          </div>
+        </IconContext.Provider>
+        
         </div>
       </div>
     </div>

@@ -1,13 +1,11 @@
 .container {
-    padding: 20px;
+    padding: 5%;
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin: 5px 0px;
-    border-radius: 20px;
+    gap: 15px;
+    margin: 5%;
 }
 
-.container:hover, .active{
-    text-decoration: underline;
-    text-decoration-color: var(--red);
+.container:hover {
+    text-decoration: underline red 4px;
 }

@@ -5,14 +5,14 @@ import Image from 'next/image';
 
 const menuItems = [
  {
-  title: "Menú",
+  title: "Servicios",
   list: [
     {
-      title: "Inicio",
+      title: "Home",
       path: "/",
     },
     {
-      title: "Servicios",
+      title: "Novedades",
       path: "/dashboard",
     },
     {
@@ -38,7 +38,7 @@ const Sidebar = () => {
   return (
     <div className={styles.container}>
       <div>
-        <Image src="/IMAGOTIPO GRUPO EULEN BLANCO.png" width={311} height={116} />
+        <Image className="logo" src="/IMAGOTIPO GRUPO EULEN BLANCO.png" width={311} height={116} />
       </div>
       <ul className={styles.list}>
       {menuItems.map((cat) => (

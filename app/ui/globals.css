@@ -1,29 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
 :root{
-    --bg-image: url('/edificio-oficinas-moderno-vista-angulo-rascacielos-ciudad-singapur-edificio-oficinas-moderno-vista-angulo-rascacielos-ciudad-singapur.jpg');
+    
     --text: white;
     --red: red;
     --blue: #002664;
   
 }
 
+
 *{
     margin: 0;
     padding: 0;
-    height: fit-content;
+    box-sizing: border-box;
+    font-family: 'Rethink Sans', sans-serif;
+   
+    
 
 }
 
 body {
     background-image: var(--bg-image);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: var(--text);
-    background-position:center;
+    position: center;
+   
+    
    
 }
   
 
 a {
-    color: inherit;
+    color: var(--text);
     text-decoration: none ;
 }
+

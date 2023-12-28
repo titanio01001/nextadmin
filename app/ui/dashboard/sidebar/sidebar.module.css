@@ -1,26 +1,15 @@
-.container {
-    position: flex;
-    top: 60px;
-    z-index: 1;
-    height: 1080px;
-    
-}
 
-.list {
-    padding-top: 180px;
-    list-style: none;
+.container {
+    position: fixed;
+    height: 100vh ;
+    width: 23% ;
+    background: rgba(0, 38, 100, 0.6);
 }
 
 .cat {
-    color: var(--text);
-    font-weight: bold;
-    font-size: 13px;
-    margin: 10px 0px;
-
+    padding-left: 5%;
 }
 
-#Image {
-    z-index: 3;
-    position: absolute;
-    padding-bottom: 90px;
+.list {
+    padding-left: 15%;
 }
