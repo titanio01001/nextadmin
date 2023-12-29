@@ -24,7 +24,7 @@
     "next": "14.0.1",
     "popmotion": "^11.0.5",
     "react": "18",
-    "react-bootstrap": "^2.9.1",
+    "react-bootstrap": "^2.9.2",
     "react-dom": "18",
     "react-icons": "^4.11.0",
     "react-responsive-carousel": "^3.2.23",

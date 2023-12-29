@@ -7,10 +7,7 @@ const menuItems = [
  {
   title: "Servicios",
   list: [
-    {
-      title: "Home",
-      path: "/",
-    },
+    
     {
       title: "Novedades",
       path: "/dashboard",

@@ -20,6 +20,7 @@
 }
 
 body {
+    
     background-image: var(--bg-image);
     background-repeat: no-repeat;
     background-size: contain;
