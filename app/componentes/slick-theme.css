@@ -6,7 +6,8 @@
 .slick-prev,
 .slick-next
 {
-    opacity: 0.7;
+    
+    opacity: 0.6;
     font-size: 0;
     line-height: 0;
     position: absolute;
@@ -56,7 +57,7 @@
     line-height: 1;
 
     
-    color: red;
+    color: #002664;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -64,7 +65,8 @@
 
 .slick-prev
 {
-    margin-left: -6%;
+    font-size: x-large;
+    margin-left: 3%;
     left: -25px;
     z-index: 7;
 }
@@ -75,21 +77,22 @@
 }
 .slick-prev:before
 {
-    content: '\f191';
+    content: '\f100';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900; /* Solid style */
     
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '\f191';
+    content: '\f100';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900; /* Solid style */
 }
 
 .slick-next
 {
-    margin-right: -6%;
+    font-size: x-large;
+    margin-right: 3%;
     right: -25px;
     z-index: 7;
 }
@@ -100,13 +103,13 @@
 }
 .slick-next:before
 {
-    content: '\f152';
+    content: '\f101';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900; /* Solid style */
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '\f152';
+    content: '\f101';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900; /* Solid style */
 }
