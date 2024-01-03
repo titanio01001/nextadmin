@@ -1,18 +1,14 @@
 import React from 'react';
-import SwipeSlider from '../componentes/SwipeSlider'
+import Carousel from '../componentes/Carousel';
 
-const images = [
-  '/security.png',
-  '/rrhh.png',
-  '/facility.png',
-];
+
 
 
 
 const Dashboard = () => {
   return (
     <div> 
-      <SwipeSlider items={images}/> 
+      <Carousel/> 
     </div>
   );
 }

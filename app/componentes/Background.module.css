@@ -5,12 +5,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/copia edificios.jpg');
+    background-image: url('./Untitleddesign(1).png');
     background-size: cover;
     background-position: center;
     z-index: -1;
     background-repeat: no-repeat;
+   
   }
+
+
+ 
   
   @media (max-width: 768px) {
     .background {

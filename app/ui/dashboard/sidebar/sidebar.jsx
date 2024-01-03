@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const menuItems = [
  {
-  title: "Servicios",
+  title: "Líneas de Negocio",
   list: [
     
     {
@@ -17,7 +17,7 @@ const menuItems = [
       path: "/dashboard/Limpieza",
     },
     {
-      title: "Mantenimiento",
+      title: "Facility",
       path: "/dashboard/Mantenimiento",
     },
     {
@@ -34,9 +34,7 @@ const menuItems = [
 const Sidebar = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <Image className={styles.logo} src="/IMAGOTIPO GRUPO EULEN BLANCO.png" width={311} height={116} />
-      </div>
+      
       <ul className={styles.list}>
       {menuItems.map((cat) => (
         <li key={cat.title}>

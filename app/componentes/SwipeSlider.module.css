@@ -1,29 +1,48 @@
 /* styles/SwipeSlider.module.css */
-
-
 .slider {
+    margin-top: 1%;
+    align-items: center;
+    background-position: center;
+    margin-left: 32%;
+    margin-right: 3%;
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.slide {
+    
     
     align-content: center;
     background-position: center;
-    margin-left: 37%;
-    margin-right: 20%;
-    margin-bottom: 8%;
-    width: 55%;
     height: auto;
+    
+  }
+
+  .container {
+   
+    display: flexbox;
+    
   }
   
-  .slide {
-        
-    .img {
-        box-shadow: 3px 4px 0px rgba(0,38,100,0.6);
-        border-radius: 40px;
-        display: block;
-        width: 100%;
-        height: auto;
+  .prev {
+    float: left;
+    background-color: transparent;
+    border:none;
+    
+  }
+
+  .next {
+    float: right;
+    background-color: transparent;
+    border:none;
+  }
+    
+    .icons {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 300%;
     }
-  }
+
   
-  .slick-prev,
-  .slick-next {
-    align-self: center;
-  }
+
+  
