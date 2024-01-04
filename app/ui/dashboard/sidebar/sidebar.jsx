@@ -17,7 +17,7 @@ const menuItems = [
       path: "/dashboard/Limpieza",
     },
     {
-      title: "Facility",
+      title: "Mantenimiento",
       path: "/dashboard/Mantenimiento",
     },
     {

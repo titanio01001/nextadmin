@@ -1,0 +1,103 @@
+.AppContainer {
+    width: 100%;
+    height: auto;
+    color: #000000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Wrapper {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-template-columns:
+    repeat(auto-fill)
+}
+
+.TextCont {
+    background-position: center;
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+.Text {
+    font-size: 4vh;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.Note {
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+
+.Marquee {
+    display: flex;
+    width: fit;
+    height: 5%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Disable vertical scrolling */
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.MarqueeGroup {
+    width: auto;
+    flex-shrink: -1;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    white-space: nowrap;
+    animation-name: slideImages;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-delay: initial;
+    position: relative;
+    padding-right: -100%;
+    padding-left: 10%;
+    
+    
+}
+
+@keyframes slideImages {
+    0% {
+        right: -25%;
+        
+    }
+    100% {right: 25%;
+        
+    }
+}
+
+.ImageGroup {
+   
+    height: auto;
+    display: grid;
+    flex-direction: row;
+    place-items: justify;
+    width: clamp(10rem, 1rem + 40vmin, 30rem);
+    padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 6);
+   
+}
+
+.Image {
+    
+    object-fit: contain;
+    width: 50%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 5px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
