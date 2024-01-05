@@ -3,8 +3,9 @@
     padding-top: 12%;
     position: fixed;
     height: 100vh ;
-    width: 22% ;
+    width: 25% ;
     background: transparent;
+    margin-right: 2%;
 }
 
 .cat {

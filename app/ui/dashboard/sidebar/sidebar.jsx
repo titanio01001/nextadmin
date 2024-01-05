@@ -13,12 +13,12 @@ const menuItems = [
       path: "/dashboard",
     },
     {
-      title: "Limpieza",
-      path: "/dashboard/Limpieza",
+      title: "Facility Services",
+      path: "/dashboard/FS",
     },
     {
-      title: "Mantenimiento",
-      path: "/dashboard/Mantenimiento",
+      title: "Servicios Transitorios",
+      path: "/dashboard/ST",
     },
     {
       title: "Seguridad Física",
@@ -28,6 +28,15 @@ const menuItems = [
       title: "Seguridad Electrónca",
       path: "/dashboard/SeguridadE",
     },
+    {
+      title: "Servicios Socio-Sanitarios",
+      path: "/dashboard/SSoc",
+    },
+    {
+      title: "Formación",
+      path: "/dashboard/F",
+    },
+
   ]
  } 
 ]

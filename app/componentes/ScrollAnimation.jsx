@@ -26,8 +26,7 @@ function ScrollAnimation() {
     return <div className={styles.AppContainer}>
         <div className={styles.Wrapper}>
             <div className={styles.TextCont}>
-            <h1 className={styles.Text}>Nuestros Clientes</h1>
-            <p className={styles.Note}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className={styles.Note}>Nuestros Clientes</p>
             </div>
         <div className={styles.Marquee}>
             <div className={styles.MarqueeGroup}>

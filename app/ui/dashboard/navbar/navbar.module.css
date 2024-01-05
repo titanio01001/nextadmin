@@ -40,12 +40,21 @@
     text-decoration: underline white 3px;
   }
 
+  .profilebutton {
+    background-color: transparent;
+    border-color: transparent;
+    width: 3rem;
+  
+  }
 
   .mobilemenuicon {
     display: none; /* Hidden by default on larger screens */
     font-size: 1.5em;
     cursor: pointer;
+
   }
+
+  
   
   @media (max-width: 768px) {
     /* Show mobile menu icon and hide regular links on smaller screens */
@@ -56,6 +65,8 @@
     .mobilemenuicon {
       display: block;
     }
+
+  
   
     /* Show mobile menu links when the menu is open */
     .navlinksopen {

@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import styles from './navbar.module.css';
 import { CgProfile } from "react-icons/cg";
 
+
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -18,10 +19,9 @@ const Navbar = () => {
         <img className={styles.logo} src="/logo.png" alt="logo" />
       </div>
       <div className={styles.navlinks}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="/">Home</a>
+        <a href="">Contacto</a>
+        <button className={styles.profilebutton}>
         <span>
         <CgProfile className={styles.CgProfile}
         style={{
@@ -32,8 +32,11 @@ const Navbar = () => {
         }}
         size="4vh"
         color="white"
-        />
+        /> 
+        <a className={styles.cuenta}>Mi Cuenta</a> 
         </span>
+        </button>
+        
       </div>
       <div className={styles.navlinksopen}></div>
       <div className={styles.mobilemenuicon} onClick={toggleMobileMenu}>

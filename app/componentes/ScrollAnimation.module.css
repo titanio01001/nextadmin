@@ -2,10 +2,13 @@
     width: 100%;
     height: auto;
     color: #000000;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position:absolute; bottom:0
+    
     
 }
 
@@ -17,35 +20,37 @@
     justify-content: center;
     flex-direction: column;
     grid-template-columns:
-    repeat(auto-fill)
+    repeat(auto-fill);
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
 }
 
 .TextCont {
     background-position: center;
-    margin-left: 25%;
+    margin-left: 17%;
     margin-right: 10%;
+    margin-bottom: 1%;
 }
 
-.Text {
-    font-size: 4vh;
-    text-align: center;
-    color: white;
-    margin-bottom: 2%;
-}
+
+
 
 .Note {
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     font-size: 2vh;
-    font-weight: 100;
-    margin-bottom: 2%;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+   
 }
 
 .Marquee {
     display: flex;
-    width: fit;
-    height: 5%;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    width: cover;
+    height: 0%;
+    overflow-x: hidden; /* Enable horizontal scrolling */
     overflow-y: hidden; /* Disable vertical scrolling */
     user-select: none;
     background-color: rgba(255, 255, 255, 0.5);
@@ -66,7 +71,7 @@
     position: relative;
     padding-right: -100%;
     padding-left: 10%;
-    
+    user-select: none;
     
 }
 
@@ -81,20 +86,20 @@
 }
 
 .ImageGroup {
-   
-    height: auto;
+    
+    margin-bottom: 0%;
     display: grid;
     flex-direction: row;
     place-items: justify;
     width: clamp(10rem, 1rem + 40vmin, 30rem);
-    padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 6);
+    padding: calc(clamp(5rem, 1rem + 10vmin, 22rem) / 6);
    
 }
 
 .Image {
     
     object-fit: contain;
-    width: 50%;
+    width: 30%;
     height: 3rem;
     border-radius: 0.5rem;
     padding: 5px 20px;
