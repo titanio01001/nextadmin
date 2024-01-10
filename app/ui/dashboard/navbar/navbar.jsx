@@ -28,9 +28,12 @@ const Navbar = () => {
           bottom: '10%',
           position: 'relative',
           float: 'right',
+         
+         
           
         }}
-        size="4vh"
+        
+        size="3vh"
         color="white"
         /> 
         <a className={styles.cuenta}>Mi Cuenta</a> 

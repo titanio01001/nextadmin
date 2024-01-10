@@ -3,25 +3,28 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     padding-top: 2% ;
-    margin-right: 3%;
+    margin-right: 4%;
     background-color: transparent;
     color: white;
+    justify-content: center;
+
+  
   }
   
   .logo {
     font-size: 2vh;
     font-weight: bold;
-    width: 18%;
+    width: 20%;
     height: auto;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-top: 1%;
   }
   
   .navlinks {
     padding-top: 1%;
-    padding-right: 8%;
+    padding-right: 5%;
     display: flex;
   }
   
@@ -43,9 +46,17 @@
   .profilebutton {
     background-color: transparent;
     border-color: transparent;
-    width: 3rem;
-  
+    width: 30vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    
   }
+
+  
+
+ 
 
   .mobilemenuicon {
     display: none; /* Hidden by default on larger screens */
