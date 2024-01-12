@@ -1,0 +1,66 @@
+
+.marco {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.Container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+    margin-right: 8%;
+    margin-top: 5%;
+    
+}
+
+.card {
+    margin: 2rem 3rem;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    padding: 2rem 3rem;
+
+    .h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: #002664;
+    }
+
+}
+
+.card:hover{
+    
+    border-radius: 30px;
+    background: white;
+    padding: 2rem 3rem;
+
+}
+
+.titulo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+
+
+
+.icon1 {
+    font-size: 35px;
+    padding-left: 2%;
+    color: #002664;
+}
+
+.card p {
+    padding-top: 1rem;
+    line-height: 150%;
+    color: #002664;
+}
+
+.card h4 {
+    color: #002664;
+}

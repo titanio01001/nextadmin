@@ -5,8 +5,8 @@ import VideoMantenimiento from './VideoMantenimiento';
 import VideoReclutamiento from './VideoReclutamiento';
 import VideoGrupo from './VideoGrupo';
 import styles from './SwipeSlider.module.css';
-import { TbArrowBigRightLinesFilled } from "react-icons/tb";
-import { TbArrowBigLeftLinesFilled } from "react-icons/tb";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 
 
 const Slide1 = () => (
@@ -49,22 +49,17 @@ const JSXCarousel = () => {
 
   return (
     <div className={styles.slider}>
-        
-       
-      <div>{components[currentIndex]}
-        <div className={styles.container}>
-        <button className={styles.prev} onClick={handlePrev}>
-          <TbArrowBigLeftLinesFilled className={styles.icons}/>
-          </button>
-          <button className={styles.next} onClick={handleNext}>
-          <TbArrowBigRightLinesFilled className={styles.icons}/>
-          </button>
-        </div>
-        
-        </div>
-      </div>
-    
-  );
+    <div className={styles.container}>
+      <button className={styles.prev} onClick={handlePrev}>
+        <MdOutlineKeyboardArrowLeft  className={styles.icons} />
+      </button>
+      <div className={styles.slide}>{components[currentIndex]}</div>
+      <button className={styles.next} onClick={handleNext}>
+        <MdOutlineKeyboardArrowRight className={styles.icons} />
+      </button>
+    </div>
+  </div>
+    );
 };
 
 export default JSXCarousel;

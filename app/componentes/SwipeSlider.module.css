@@ -1,49 +1,58 @@
-/* styles/SwipeSlider.module.css */
+/* Assuming .slider is a flex container */
 .slider {
-    margin-top: 1%;
-    align-items: center;
-    background-position: center;
-    margin-left: 30%;
-    margin-right: 3%;
-    width: 50%;
-    height: auto;
-    display: flex;
-    
+  margin-right: 3%;
+  margin-left: 33%;
+  display: inline-block;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  width: 50%;
+  
 }
 
+.container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.prev,
+.next {
+  background-color: transparent;
+  border: none;
+  font-size: 3.5rem; /* Adjust the font size */
+  cursor: pointer;
+  margin: 0.5rem; /* Add margin for spacing */
+}
+
+.icons {
+  opacity: 0.9;
+  color: white;
+ 
+}
+
+.icons :hover {
+  opacity: 0.8;
+  color: #00A9E0;
+  
+  
+ 
+}
+
+/* Styles for the slide content */
 .slide {
-    
-    
-    align-content: center;
-    background-position: center;
-    height: auto;
-    
-  }
-
-  .container {
-   
-    display: flexbox;
-    
-  }
+  align-items: center;
+  justify-content: center;
   
-  .prev {
-    float: left;
-    background-color: transparent;
-    border:none;
-    
+  width: 100%;
+ 
+}
+
+/* Add responsive styles if needed */
+@media (max-width: 768px) {
+  /* Add responsive styles for smaller screens */
+  .slider {
+    flex-direction: column; /* Stack items vertically on smaller screens */
   }
-
-  .next {
-    float: right;
-    background-color: transparent;
-    border:none;
-  }
-    
-    .icons {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 200%;
-    }
-
-  
-
-  
+}

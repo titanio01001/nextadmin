@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import styles from './navbar.module.css';
-import { CgProfile } from "react-icons/cg";
+import { FaUser } from 'react-icons/fa';
 
 
 const Navbar = () => {
@@ -22,23 +22,9 @@ const Navbar = () => {
         <a href="/">Home</a>
         <a href="">Contacto</a>
         <button className={styles.profilebutton}>
-        <span>
-        <CgProfile className={styles.CgProfile}
-        style={{
-          bottom: '10%',
-          position: 'relative',
-          float: 'right',
-         
-         
-          
-        }}
-        
-        size="3vh"
-        color="white"
-        /> 
-        <a className={styles.cuenta}>Mi Cuenta</a> 
-        </span>
-        </button>
+        <a href="/">Mi Cuenta</a>
+        <FaUser className={styles.icon} />
+      </button>
         
       </div>
       <div className={styles.navlinksopen}></div>

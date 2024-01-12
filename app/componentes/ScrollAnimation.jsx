@@ -2,6 +2,7 @@
 import React from "react";
 import styles, {keyframes, css} from './ScrollAnimation.module.css';
 
+
   
 function ScrollAnimation() {
 
@@ -23,25 +24,26 @@ function ScrollAnimation() {
 
 
 
-    return <div className={styles.AppContainer}>
-        <div className={styles.Wrapper}>
-            <div className={styles.TextCont}>
-            <p className={styles.Note}>Nuestros Clientes</p>
+    return (
+    <div className={styles.AppContainer}>
+    <div className={styles.Wrapper}>
+      <div className={styles.TextCont}>
+        <p className={styles.Note}></p>
+      </div>
+      <div className={styles.Marquee}>
+        <div className={styles.MarqueeGroup}>
+          {row1.map((el, index) => (
+            <div key={index} className={styles.ImageGroup}>
+              <img className={styles.Image} src={el} alt={`logo-${index}`} />
             </div>
-        <div className={styles.Marquee}>
-            <div className={styles.MarqueeGroup}>
-                {
-                    row1.map(el => (
-                        <div className={styles.ImageGroup}>
-                            <img className={styles.Image} src={el} />
-                        </div>
-                    ))
-                }
-            </div>
-            </div>    
+          ))}
         </div>
-    </div>;
-    }
+      </div>
+    </div>
+  </div>
+);
+}
+
 
     export default ScrollAnimation;
 

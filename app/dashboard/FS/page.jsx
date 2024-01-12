@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Cards from './cards';
 
 const Limpieza = () => {
   return (
-    <div>Limpieza</div>
+
+      <Cards></Cards>
+    
   )
 }
 
